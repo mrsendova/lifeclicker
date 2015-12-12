@@ -1,0 +1,2 @@
+# lifeclicker
+JavaScript incremental game
