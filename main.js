@@ -16,7 +16,7 @@ You should have received a copy of the GNU General Public License
 along with LifeClicker.  If not, see <http://www.gnu.org/licenses/>.
 */
 
-time = 60; //the time the player have before game over
+var time = 60; //the time the player have before game over
 var timeChange = 1; //the time being lost every second
 
 function changeTime(newtime){
