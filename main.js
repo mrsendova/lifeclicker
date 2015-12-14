@@ -19,16 +19,16 @@ along with LifeClicker.  If not, see <http://www.gnu.org/licenses/>.
 var time = 60; //the time the player have before game over
 var timeChange = 1; //the time being lost every second
 
-function changeTime(newtime){
-  document.getElementById("time").innerHTML = newtime;
+function refreshData(a){
+  document.getElementById("a").innerHTML = a;
 }
 
 setInterval(function() {
   time -= timeChange;
-  changeTime(time);
+  refreshData(time);
 },1000); //substractin timeChange from time every second
 
 function buttonClicked(){
   time += 1;
-  changeTime(time);
+  refreshData(time);
 }
